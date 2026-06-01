@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48339484245",
+    "project_id": "gamerdexdd",
+    "storage_bucket": "gamerdexdd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48339484245:android:91b601c589284dff0e9edc",
+        "android_client_info": {
+          "package_name": "com.mariolos27.gamerdex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK4KEqo_xD3rm0putzxNx6KqZyiZ3Qk9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

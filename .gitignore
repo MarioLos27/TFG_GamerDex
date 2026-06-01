@@ -1,0 +1,137 @@
+# ============================================================================
+# GamerDex .gitignore - Proyecto Android Studio TFG
+# ============================================================================
+# Protege credenciales IGDB, archivos de build y configuración local
+
+# ============================================================================
+# Gradle
+# ============================================================================
+.gradle/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.aar
+*.zip
+
+# ============================================================================
+# Android Studio / IntelliJ IDEA
+# ============================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+*.bak
+*.hprof
+
+# ============================================================================
+# Archivos de Credenciales (IMPORTANTE - NUNCA COMMITEAR)
+# ============================================================================
+# Token IGDB, Client ID, Access Token
+local.properties
+gradle.properties
+.env
+.env.local
+.env.*.local
+app/src/main/res/values/secrets.xml
+keystore.properties
+*.jks
+*.keystore
+
+# ============================================================================
+# Sistema y IDE
+# ============================================================================
+.DS_Store
+.classpath
+.project
+.settings/
+Thumbs.db
+Desktop.ini
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# Build y Generated
+# ============================================================================
+/build
+/captures
+.externalNativeBuild
+.cxx/
+gen/
+bin/
+out/
+lint-baseline.xml
+
+# ============================================================================
+# Tests y Coverage
+# ============================================================================
+test-results/
+.junit/
+coverage/
+*.ec
+*.exec
+
+# ============================================================================
+# Temporary Files
+# ============================================================================
+*.log
+*.orig
+*.rej
+.tmp
+.temp
+
+# ============================================================================
+# Database (Development)
+# ============================================================================
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ============================================================================
+# macOS, Windows, Linux
+# ============================================================================
+._*
+.AppleDouble
+.LSOverride
+$RECYCLE.BIN/
+.directory
+
+# ============================================================================
+# Emulator y Device
+# ============================================================================
+.android/
+*.avd
+
+# ============================================================================
+# Archivos de Lock
+# ============================================================================
+*.lock
+# EXCEPTO gradle-wrapper
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# ============================================================================
+# Documentación Interna (NO VERSIONAR)
+# ============================================================================
+# Archivos .md de documentación interna, setup, instrucciones
+# Solo README.md se mantiene como punto de entrada estándar
+CHECKLIST.md
+SETUP_GUIDE.md
+VERTICAL_SLICE_SEARCH.md
+QUICK_REFERENCE.md
+IMPLEMENTATION_SUMMARY.md
+AGENTS.md
+SECURITY_CREDENTIALS.md
+GITIGNORE_SUMMARY.md
+GIT_COMMANDS.md
+GITIGNORE_IMPLEMENTATION_SUMMARY.md
+DOCUMENTATION_INDEX.md

@@ -1,0 +1,45 @@
+# ============================================================================
+# local.properties.example - Plantilla de Credenciales IGDB
+# ============================================================================
+# RENOMBRA ESTE ARCHIVO A: local.properties
+# LLÉNALO CON TUS CREDENCIALES
+# NUNCA LO COMMITEES A GIT
+#
+# El archivo local.properties REAL está en .gitignore y no se versionará
+# ============================================================================
+
+# IGDB Credenciales (obtener en: https://dev.twitch.tv/console/apps)
+# ============================================================================
+
+# Tu Client ID de Twitch
+# Obtener en: Twitch Developers Console → Tu App → Manage
+igdb.client.id=PEGA_TU_CLIENT_ID_AQUI
+
+# Tu Access Token de Twitch (válido 60 días)
+# Generar con: OAuth 2.0 Client Credentials Flow
+igdb.access.token=PEGA_TU_ACCESS_TOKEN_AQUI
+
+# ============================================================================
+# Android SDK (Opcional - Android Studio lo genera automáticamente)
+# ============================================================================
+# sdk.dir=/ruta/a/tu/sdk
+
+# ============================================================================
+# Variables Adicionales (si las necesitas)
+# ============================================================================
+# igdb.api.base.url=https://api.igdb.com/v4/
+# igdb.api.timeout=30000
+
+# ============================================================================
+# INSTRUCCIONES:
+# ============================================================================
+# 1. Duplica este archivo
+# 2. Renómbralo a: local.properties
+# 3. Reemplaza PEGA_TU_CLIENT_ID_AQUI y PEGA_TU_ACCESS_TOKEN_AQUI
+# 4. Guarda (NO lo commitees)
+# 5. El build.gradle.kts lo leerá automáticamente
+#
+# Este archivo (local.properties.example) SÍ puedes committear.
+# El archivo real (local.properties) está excluido en .gitignore
+# ============================================================================
+
